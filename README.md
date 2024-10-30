@@ -1,50 +1,46 @@
-# React + TypeScript + Vite
+# Memento - Modern Landing Page | Front-End, UI/UX
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📋 Table of Contents
+- [ Introduction](#introduction)
+- [ Tech Stack](#tech-stack)
+- [ Features](#features)
+- [ Quick Start](#quick-start)
+- [ Snippets](#snippets)
+- [ Links](#links)
 
-Currently, two official plugins are available:
+## Introduction
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**Memento** is a modern UI/UX landing page designed to showcase advanced design principles using **React.js** and **Tailwind CSS**. This project exemplifies a sleek and responsive user interface with seamless animations and high usability, using modern UI designs like bento grids and animated features.
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Vite**: Primary development environment.
+- **React.js**: For building user interfaces.
+- **Tailwind CSS**: For styling.
 
-- Configure the top-level `parserOptions` property like this:
+## Features
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **Sleek Modern Sections**: Includes a hero section, services overview, features, usage guidelines, roadmap, pricing details, and a footer.
+- **Parallax Animations**: Engaging effects triggered by user interactions, such as mouse movements and scrolling.
+- **Complex UI Geometry**: Utilizes Tailwind CSS to create intricate layouts, including circular feature displays and grid structures.
+- **Modern Design Trends**: Incorporates the latest design elements, including bento grids for efficient content organization.
+- **Stylish Gradients**: Enhances the visual appeal with cool gradients applied to cards, buttons, and other components.
+- **Responsive Design**: Ensures optimal performance and aesthetics across various devices.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## Quick Start
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Follow these steps to set up the project locally on your machine.
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+### Prerequisites
+
+Make sure you have the following installed on your machine:
+- **Git**
+- **Node.js**
+- **npm (Node Package Manager)**
+
+### Cloning the Repository
+
+```bash
+git clone https://github.com/shareenrai/memento.git
+cd memento
+
